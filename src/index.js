@@ -9,16 +9,16 @@ var Table = React.createClass({
         width:'100%'
       }}>
       	<tbody>
-      		<tr>
-      			<td><strong>Name</strong></td>
-      			<td><strong>Lodge</strong></td>
-      			<td><strong>Service</strong></td>
-      		</tr>
-      		<tr>
-      			<td colSpan="3">
-      			   <hr />
+          <tr>
+            <td><strong>Name</strong></td>
+            <td><strong>Lodge</strong></td>
+            <td><strong>Service</strong></td>
+          </tr>
+          <tr>
+            <td colSpan="3">
+              <hr />
             </td>
-      		</tr>
+          </tr>
           {data.map(function(scout) {
             return (
               <tr key={scout.id}>
