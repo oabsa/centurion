@@ -1,17 +1,15 @@
 {
+  "private": true,
   "name": "centurion",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "prebuild": "make js",
     "build": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Patrick Burtchaell <patrick@pburtchaell.com>",
   "license": "Unlicense",
   "dependencies": {
-    "node-jsx": "^0.13.3",
     "react": "^0.13.3"
   },
   "devDependencies": {
