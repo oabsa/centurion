@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "make js",
-    "build": "node dist/index.js",
+    "build": "node dist/index.js"
   },
   "author": "Patrick Burtchaell <patrick@pburtchaell.com>",
   "license": "Unlicense",
